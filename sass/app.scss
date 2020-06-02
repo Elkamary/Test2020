@@ -1,0 +1,32 @@
+$bg:cyan;
+$color:#DDD;
+
+ @mixin box($w,$h) {
+    width: $w;
+    height: $h;
+    
+ }
+ .parent{
+    margin: auto;
+    @include box(50%,100%);
+    
+    
+}
+.test-1{
+    background: $bg;
+    color: $color;
+    border-radius: 50%;
+    margin: 10px;
+    @include box(300px,300px);
+    
+    
+
+}
+.test-2{
+    @extend .test-1;
+    @include box(100px,100px);
+}
+
+ 
+
+

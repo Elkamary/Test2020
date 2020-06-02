@@ -1,0 +1,16 @@
+.parent {
+  margin: auto;
+  width: 50%;
+  height: 100%; }
+
+.test-1, .test-2 {
+  background: cyan;
+  color: #DDD;
+  border-radius: 50%;
+  margin: 10px;
+  width: 300px;
+  height: 300px; }
+
+.test-2 {
+  width: 100px;
+  height: 100px; }
